@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SustentaSom</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1b5e20, #aed581, #1b5e20);
+  }
+
+  .title {
+    color: #4caf50; /* verde */
+    font-size: 2em;
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  /* Estilo para a parte de cima e de baixo */
+  html::before,
+  html::after {
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+    z-index: -1;
+    color: darkgreen;
+  }
+
+  /* Parte de cima e de baixo */
+  html::before {
+    top: 0;
+    background: #1b5e20; /* verde escuro */
+  }
+
+  html::after {
+    bottom: 0;
+    background: #1b5e20; /* verde escuro */
+  }
+</style>
+</head>
+<body>
+  <div class="title">SustentaSom</div>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    a {
+      color: black;
+      text-decoration: none; /* para remover o sublinhado padrão do link */
+    }
+  </style>
+</head>
+<body>
+  <a href="https://carioca.rio/orgao/companhia-municipal-de-limpeza-urbana-comlurb/">intenda mais sobre o trabalho da nossa futura parceira</a>
+  <p>clique na frase acima</p>
+  <a href="file:///D:/Feira%20De%20Ciencias%20FAETEC/SustentaSomcertoerrado.html">aqui temos um certo e errado para concientizar os pequenos da importancia da reciclagem</a>
+  <p>clique na frase acima</p>
+
+</body>
+</html>
